@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { useParams, Link, useHistory } from "react-router-dom";
+import { useHistory } from "use-history"
+import { useParams, Link } from "react-router-dom";
 import Spinner from "./Spinner";
 
 const ArtistView = () => {

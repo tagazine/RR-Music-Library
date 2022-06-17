@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import { useParams, useHistory } from 'react-router-dom'
+import { useHistory } from "use-history"
+import { useParams} from 'react-router-dom'
 import Spinner from './Spinner'
 
 const AlbumView = () => {
